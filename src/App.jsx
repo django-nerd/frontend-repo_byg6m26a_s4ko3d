@@ -19,7 +19,7 @@ function Navbar({ cartCount, onSearch }) {
               <Menu className="h-6 w-6 text-gray-700" />
             </button>
             <a href="/" className="text-xl font-bold tracking-tight">
-              Shoply
+              shubh
             </a>
           </div>
 
@@ -131,7 +131,7 @@ function Footer() {
     <footer className="mt-16 border-t">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 grid md:grid-cols-4 gap-8 text-sm text-gray-600">
         <div>
-          <h4 className="font-semibold text-gray-900">Shoply</h4>
+          <h4 className="font-semibold text-gray-900">shubh</h4>
           <p className="mt-2">Modern e-commerce template built with React & Tailwind.</p>
         </div>
         <div>
@@ -159,7 +159,7 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <div className="py-6 text-center text-xs text-gray-500">© {new Date().getFullYear()} Shoply. All rights reserved.</div>
+      <div className="py-6 text-center text-xs text-gray-500">© {new Date().getFullYear()} shubh. All rights reserved.</div>
     </footer>
   )
 }
